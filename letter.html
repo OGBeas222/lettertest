@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Design for boostrap</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .body {
+            background-color: #ffff;
+            font-family: "Oswald", sans-serif;
+            margin: 0 auto;
+            padding: 3%;
+        }
+        
+        .info-text {
+            align-items: center;
+            font-size: 16px;
+            font-family: "Oswald", sans-serif;
+            color: #c0c0c0;
+        }
+        
+        .info {
+            margin-bottom: 65px;
+        }
+        
+        .title {
+            font-size: 24px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .title__text1 {
+            color: #5CAAD2;
+        }
+        
+        .header-wrapper,
+        .hero-container__position,
+        .info__position,
+        .contacts__wrapper,
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .logo {
+            width: 99px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        
+        .hr {
+            border: none;
+            size: 1;
+        }
+        
+        .big-1 {
+            width: 579px;
+            height: 360px;
+        }
+        
+        .header {
+            margin-bottom: 45px;
+        }
+        
+        .buy {
+            width: 145px;
+            height: 45px;
+            background-color: #5CAAD2;
+            color: #ffff;
+            border: none;
+            margin-bottom: 45px;
+        }
+        
+        .contacts-position {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 630px;
+        }
+        
+        .requesitz {
+            font-family: "Oswald", sans-serif;
+            font-size: 16px;
+        }
+        
+        .contacts-mdb {
+            width: 80px;
+            height: 28px;
+            order: -1;
+        }
+        
+        .social-logo {
+            text-decoration: none;
+        }
+        
+        .contacts-email {
+            color: #333333;
+            font-size: 14px;
+            text-decoration: #333333;
+            margin-top: 0;
+        }
+        
+        .header-container {
+            max-width: 760px;
+        }
+        
+        .hero-container {
+            max-width: 98%;
+            margin-bottom: 65px;
+        }
+        
+        .contacts-items {
+            margin: 0 auto;
+        }
+        
+        .footer {
+            display: flex;
+            justify-content: center;
+            height: 65px;
+            background-color: #F4F4F4;
+        }
+        
+        .footer-link {
+            text-decoration: none;
+            color: #5CAAD2;
+            margin-left: 325px;
+            font-family: "Oswald", sans-serif;
+            font-size: 16px;
+        }
+        
+        .wrapper {
+            max-width: 760px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .footer-text {
+            font-family: "Oswald", sans-serif;
+            font-size: 16px;
+        }
+        
+        .social-logo {
+            margin-right: 4px;
+        }
+        
+        .contacts-eml {
+            margin-top: 45px;
+            margin-bottom: 0px;
+        }
+        
+        .container111 {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="hero-container">
+        <div class="header-wrapper">
+            <a href="#" class="logo">
+                <img src="img/mdb-email.png" alt="logo-company">
+            </a>
+        </div>
+    </header>
+
+
+    <section class="hero-container hero-container__position">
+        <a href="#">
+            <img class="big-1" src="img/img (67).jpg" alt="background">
+        </a>
+
+    </section>
+    <section class="info info__position">
+        <div class="title">
+            <p class="title__text">
+                NEW IN
+                <span class="title__text1">NOVEMBER</span>
+            </p>
+            <hr color="c0c0c0" noshade size="2" width="33px">
+        </div>
+
+        <p class="info-text">
+            Winter is coming. Shop our latest AW16 range,&nbsp;and <br> prepare for the damp, cold, British weather.</p>
+        <button class="buy">SHOP NOW</button>
+        <hr noshade width="100%" noshade size="1">
+    </section>
+    <section class="contacts contacts__wrapper ">
+        <div class="contacts contacts__wrapper-1">
+            <div class="contacts-items">
+                <a href="#">
+                    <img class="contacts-mdb" src="img/mdb-email.png" alt="logo">
+                </a>
+                <div class="contacts-position">
+                    <div class="requesitz">
+                        <P class="contacts-eml">
+                            Email us:
+                        </P>
+                        <p class="contacts-email">contact@mdbootstrap.com</P>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="social-logo"><img src="img/Qc3zTxn.png" alt=""> </a>
+                        <a href="#" class="social-logo"><img src="img/Qc3zTxn.png" alt=""> </a>
+                        <a href="#" class="social-logo"><img src="img/Qc3zTxn.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer footer-container">
+        <div class="container111">
+            <div class="wrapper">
+                <p class="footer-text">Material Design for Bootstrap</p>
+                <a href="#" class="footer-link">
+                    <span class="footer__link">
+                        UNSUBSCRIBE
+                    </span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
